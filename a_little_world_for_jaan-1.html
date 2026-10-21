@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f5">
+<title>A Little World for Jaan ♡</title>
+<style>
+  :root { --pink:#c04476; --deep:#8f315a; --soft:#fff0f5; --cream:#fffafc; }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    margin:0; min-height:100vh; overflow-x:hidden; color:#63364a;
+    font-family: Georgia, "Times New Roman", serif;
+    background: radial-gradient(circle at top, #ffe0ec 0, #fff0f5 42%, #fffafc 100%);
+  }
+  .hearts { position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:0; }
+  .heart { position:absolute; bottom:-40px; color:#e68bb0; opacity:.55; animation:floatUp linear infinite; }
+  @keyframes floatUp { from { transform:translateY(0) rotate(0); opacity:0; } 12% {opacity:.6;} to { transform:translateY(-115vh) rotate(28deg); opacity:0; } }
+  main { position:relative; z-index:1; width:min(92%,620px); margin:0 auto; padding:28px 0 48px; }
+  .top-note { text-align:center; letter-spacing:2px; text-transform:uppercase; color:#b36a88; font:11px Arial,sans-serif; }
+  .card {
+    margin-top:18px; padding:clamp(22px,6vw,42px); border:1px solid #f2c9d9;
+    border-radius:28px; background:rgba(255,250,252,.91);
+    box-shadow:0 18px 55px rgba(165,75,112,.12); text-align:center;
+  }
+  .flower { font-size:35px; margin:0 0 6px; }
+  h1 { font-size:clamp(35px,9vw,55px); line-height:1.05; color:var(--pink); font-weight:normal; margin:8px 0 12px; }
+  .subtitle { color:#ad6684; font-style:italic; font-size:17px; line-height:1.5; }
+  .line { width:76px; height:1px; background:#e9b1c9; margin:25px auto; }
+  h2 { font-size:27px; font-weight:normal; color:var(--pink); margin:0 0 16px; }
+  p { font-size:17px; line-height:1.85; margin:0 0 16px; }
+  .emphasis { color:var(--deep); font-style:italic; }
+  .signature { margin-top:22px; color:var(--pink); font-size:20px; line-height:1.6; }
+  button {
+    appearance:none; border:0; border-radius:999px; padding:14px 22px; margin-top:12px;
+    background:linear-gradient(135deg,#d65c91,#b83e73); color:white; font-size:15px;
+    box-shadow:0 8px 20px rgba(192,68,118,.22); cursor:pointer; font-family:Arial,sans-serif;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  button:active { transform:scale(.98); }
+  button:focus-visible { outline:3px solid #8f315a; outline-offset:4px; }
+  .secret { display:none; margin-top:22px; padding:20px 17px; border-radius:20px; background:#fff0f5; border:1px dashed #e7a7c2; animation:reveal .6s ease both; }
+  .secret.show { display:block; }
+  @keyframes reveal { from {opacity:0; transform:translateY(10px) scale(.98);} to {opacity:1; transform:translateY(0) scale(1);} }
+  .tiny { font:12px Arial,sans-serif; color:#b27b93; margin-top:25px; }
+  .footer { text-align:center; font-size:13px; color:#b27b93; margin:20px 0 0; }
+  @media (prefers-reduced-motion: reduce) { *,*::before,*::after {animation-duration:.01ms!important; animation-iteration-count:1!important; scroll-behavior:auto!important;} }
+</style>
+</head>
+<body>
+<div class="hearts" id="hearts" aria-hidden="true"></div>
+<main>
+  <div class="top-note">a tiny surprise, made with love</div>
+  <section class="card">
+    <div class="flower" aria-hidden="true">🌷 ♡ 🌷</div>
+    <h1>A Little World<br>for Jaan</h1>
+    <div class="subtitle">Someone made this little corner of the universe just for you.</div>
+    <div class="line"></div>
+
+    <h2>Hello, my Jaan. 🥹❤️</h2>
+    <p>First of all, yes, this entire little thing is for you. And yes, you better smile while reading it. 😭💗</p>
+    <p>Sometimes I wish I could show you how I see you, even for just a second. Maybe then you'd understand why you're so special to me.</p>
+    <p>Jaan, you are the prettiest, most gorgeous girl to me. I don't care how anyone else looks or what anyone else thinks, because in my eyes, you're beyond everyone. No one could ever compare to you in the way I see you. And I wish you could see yourself through my eyes, even just once, so you'd understand why you're so beautiful to me. 🥹❤️</p>
+
+    <div class="line"></div>
+    <h2>Your day is getting closer… 🎂</h2>
+    <p>And guess what, my Jaan? 🥹💗</p>
+    <p>Your birthday is getting closer… <strong>16th November</strong>, the day my favourite girl was born. ❤️</p>
+    <p>I don't think you realise how special this day is to me. It's the day the world got someone as beautiful and precious as you, and honestly, I'm just grateful that our paths crossed.</p>
+    <p>I wish I could make you see how much happiness you bring into my life. And as your birthday gets closer, I keep thinking about how I can make you feel as special as you truly are.</p>
+    <p>You deserve to feel loved, appreciated, and celebrated — not just on your birthday, but on all the ordinary days in between, too.</p>
+    <p class="emphasis">So, Jaan, your special day is coming… and I hope I can put the biggest smile on that pretty face of yours. 🤍🎂</p>
+
+    <div class="line"></div>
+    <p>I don't need you to be perfect, Jaan. I don't need every day to be magical. I just want the real you — your happy days, your silly moments, your overthinking, your little complaints, everything that makes you <em>you</em>.</p>
+    <p>And if there's ever a day when you don't feel pretty enough, good enough, or loved enough, I hope you'll remember this: there's someone out here who feels incredibly lucky to have you in his life.</p>
+    <h2>And that someone is me. ❤️</h2>
+    <p class="emphasis">Not because you're perfect, but because you're you.</p>
+
+    <div class="line"></div>
+    <h2>One more thing, Jaan…</h2>
+    <p>I might not always find the perfect words, and I might not get everything right, but what I feel for you isn't something I want to treat carelessly.</p>
+    <p>I want to keep learning you, understanding you, making you laugh, and becoming someone who brings more peace than worry into your life.</p>
+    <p>You deserve a love that feels safe, honest, and real. And that's the kind of love I want to give you.</p>
+    <p class="emphasis">You're my favourite person to annoy, my favourite person to miss, and my favourite person to call mine. 🤭💗</p>
+
+    <div class="line"></div>
+    <h2>I love you, my Jaan. ♾️</h2>
+    <p class="emphasis">And I'm really, really glad it's you.</p>
+    <div class="signature">Always cheering for you,<br>your person ❤️</div>
+
+    <p class="tiny">P.S. Jaan… there's one more little thing for you.</p>
+    <button id="revealBtn" type="button" aria-expanded="false" aria-controls="secret">Open your secret message 💌</button>
+    <div class="secret" id="secret" aria-live="polite">
+      <div style="font-size:28px;margin-bottom:8px">💗</div>
+      <h2 style="font-size:24px">One little promise</h2>
+      <p>I can't promise that every day will be perfect, but I can promise to keep choosing kindness, to listen, to learn, and to make an effort.</p>
+      <p>And whenever the world feels a little too loud, I hope you remember that you matter so much — not just to me, but simply because you're you.</p>
+      <p class="emphasis">If I could send you one thing through this screen, it would be the biggest hug. 🫂</p>
+      <div class="signature">You're precious to me, Jaan. ♾️</div>
+    </div>
+  </section>
+  <div class="footer">made for one very special girl ♡</div>
+</main>
+<script>
+  const hearts = document.getElementById('hearts');
+  const symbols = ['♡','♥','✧','❤'];
+  for (let i=0; i<18; i++) {
+    const el = document.createElement('span');
+    el.className = 'heart';
+    el.textContent = symbols[i % symbols.length];
+    el.style.left = (Math.random()*100) + '%';
+    el.style.fontSize = (13 + Math.random()*19) + 'px';
+    el.style.animationDuration = (9 + Math.random()*12) + 's';
+    el.style.animationDelay = (-Math.random()*18) + 's';
+    hearts.appendChild(el);
+  }
+  const btn = document.getElementById('revealBtn');
+  const secret = document.getElementById('secret');
+  btn.addEventListener('click', () => {
+    const open = secret.classList.toggle('show');
+    btn.textContent = open ? 'Hide the secret message 💗' : 'Open your secret message 💌';
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) secret.scrollIntoView({behavior:'smooth', block:'nearest'});
+  });
+</script>
+</body>
+</html>
